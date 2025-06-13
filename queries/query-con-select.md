@@ -15,7 +15,7 @@ SELECT *
 
 SELECT *
  FROM university.students
- WHERE YEAR (`date_of_birth`)<=1995
+ WHERE YEAR (`date_of_birth`) < 1995
 
 
 4. Selezionare tutti i corsi del primo semestre del primo anno di un qualsiasi corso di
